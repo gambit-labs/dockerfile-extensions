@@ -28,5 +28,4 @@ done < <(grep "WGET" ${SOURCE})
 
 ### CLEANUP
 sed '/#/d;/^$/d;\@\t\\@d;' -i ${TARGET}
-rm ${TARGETDIR}/Dockerfile.tmp
 ### /CLEANUP
